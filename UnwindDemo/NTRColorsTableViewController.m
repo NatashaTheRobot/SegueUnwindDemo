@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 NatashaTheRobot. All rights reserved.
 //
 
-#import "NTRModalTableViewController.h"
+#import "NTRColorsTableViewController.h"
 
-@interface NTRModalTableViewController ()
+@interface NTRColorsTableViewController ()
 
 @property (strong, nonatomic) NSArray *colors;
 
 @end
 
-@implementation NTRModalTableViewController
+@implementation NTRColorsTableViewController
 
 - (void)viewDidLoad
 {

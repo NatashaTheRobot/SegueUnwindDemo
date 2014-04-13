@@ -21,7 +21,7 @@
 		9CE942DB18F9EB6A00E51DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE942BD18F9EB6900E51DCB /* UIKit.framework */; };
 		9CE942E318F9EB6A00E51DCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CE942E118F9EB6A00E51DCB /* InfoPlist.strings */; };
 		9CE942E518F9EB6A00E51DCB /* UnwindDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE942E418F9EB6A00E51DCB /* UnwindDemoTests.m */; };
-		9CE942F118F9EDC200E51DCB /* NTRModalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE942F018F9EDC200E51DCB /* NTRModalTableViewController.m */; };
+		9CE942F118F9EDC200E51DCB /* NTRColorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE942F018F9EDC200E51DCB /* NTRColorsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		9CE942E018F9EB6A00E51DCB /* UnwindDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnwindDemoTests-Info.plist"; sourceTree = "<group>"; };
 		9CE942E218F9EB6A00E51DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9CE942E418F9EB6A00E51DCB /* UnwindDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnwindDemoTests.m; sourceTree = "<group>"; };
-		9CE942EF18F9EDC200E51DCB /* NTRModalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRModalTableViewController.h; sourceTree = "<group>"; };
-		9CE942F018F9EDC200E51DCB /* NTRModalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTRModalTableViewController.m; sourceTree = "<group>"; };
+		9CE942EF18F9EDC200E51DCB /* NTRColorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTRColorsTableViewController.h; sourceTree = "<group>"; };
+		9CE942F018F9EDC200E51DCB /* NTRColorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTRColorsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 			children = (
 				9CE942CE18F9EB6900E51DCB /* NTRMainViewController.h */,
 				9CE942CF18F9EB6900E51DCB /* NTRMainViewController.m */,
-				9CE942EF18F9EDC200E51DCB /* NTRModalTableViewController.h */,
-				9CE942F018F9EDC200E51DCB /* NTRModalTableViewController.m */,
+				9CE942EF18F9EDC200E51DCB /* NTRColorsTableViewController.h */,
+				9CE942F018F9EDC200E51DCB /* NTRColorsTableViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE942F118F9EDC200E51DCB /* NTRModalTableViewController.m in Sources */,
+				9CE942F118F9EDC200E51DCB /* NTRColorsTableViewController.m in Sources */,
 				9CE942C618F9EB6900E51DCB /* main.m in Sources */,
 				9CE942CA18F9EB6900E51DCB /* NTRAppDelegate.m in Sources */,
 				9CE942D018F9EB6900E51DCB /* NTRMainViewController.m in Sources */,

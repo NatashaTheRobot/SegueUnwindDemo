@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 NatashaTheRobot. All rights reserved.
 //
 
-@interface NTRModalTableViewController : UITableViewController
+@interface NTRColorsTableViewController : UITableViewController
 
 @property (strong, nonatomic) UIColor *selectedColor;
 

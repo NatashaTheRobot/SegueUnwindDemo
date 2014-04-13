@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="314" y="230"/>
         </scene>
-        <!--Modal Table View Controller - Colors-->
+        <!--Colors Table View Controller - Colors-->
         <scene sceneID="Kmx-2w-g1G">
             <objects>
-                <tableViewController id="S1C-nh-0Fc" customClass="NTRModalTableViewController" sceneMemberID="viewController">
+                <tableViewController id="S1C-nh-0Fc" customClass="NTRColorsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="KEV-uS-Dl5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
                     <navigationItem key="navigationItem" title="Colors" id="ha7-5T-ed4">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="uLD-Sp-6g8">
                             <connections>
-                                <segue destination="m60-iI-T32" kind="unwind" identifier="colorSelected" unwindAction="unwindFromModalViewController:" id="e17-PP-HAF"/>
+                                <segue destination="m60-iI-T32" kind="unwind" identifier="colorSelected" unwindAction="unwindFromModalViewController:" id="Jd6-DC-RhF"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -84,7 +84,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qpi-Hj-g8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="701" y="230"/>
+            <point key="canvasLocation" x="715" y="230"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

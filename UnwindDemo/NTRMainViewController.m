@@ -7,7 +7,7 @@
 //
 
 #import "NTRMainViewController.h"
-#import "NTRModalTableViewController.h"
+#import "NTRColorsTableViewController.h"
 
 @interface NTRMainViewController ()
 
@@ -22,10 +22,10 @@
 
 - (IBAction)unwindFromModalViewController:(UIStoryboardSegue *)segue
 {
-    if ([segue.sourceViewController isKindOfClass:[NTRModalTableViewController class]]) {
-        NTRModalTableViewController *modalVC = segue.sourceViewController;
-        if (modalVC.selectedColor) {
-            self.view.backgroundColor = modalVC.selectedColor;
+    if ([segue.sourceViewController isKindOfClass:[NTRColorsTableViewController class]]) {
+        NTRColorsTableViewController *colorsViewConroller = segue.sourceViewController;
+        if (colorsViewConroller.selectedColor) {
+            self.view.backgroundColor = colorsViewConroller.selectedColor;
         }
     }
 }
